@@ -972,4 +972,7 @@ span.hr {
    #hero{
      background-image:url("/assets/img/stock_small.jpg");
    }
+   .about {
+	   margin-top:5px;
+   }
 }
