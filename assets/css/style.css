@@ -35,6 +35,7 @@ span.hr {
   width:100%;
   display:block;
   border-top:1px solid #888;
+  margin:0 0 12px 0;
 }
 .featurette-divider {
   margin: 40px 0; /* Space out the Bootstrap <hr> more */
@@ -978,9 +979,7 @@ span.break40 {
    #hero{
      background-image:url("/assets/img/stock_small.jpg");
    }
-   .about {
-	   margin-top:5px;
-   }
+
    .navbar-toggler {
 	   	position:absolute;
 	   	right:10px;
@@ -991,4 +990,7 @@ span.break40 {
 .disclaimer {
 	padding-top:40px;
 	padding-bottom:40px;
+}
+.about {
+	margin-top:8px;
 }
