@@ -35,7 +35,11 @@ span.hr {
   border-top:1px solid #888;
 }
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 40px 0; /* Space out the Bootstrap <hr> more */
+}
+span.break40 {
+	padding:40px;
+	display:block;
 }
 
 /* Thin out the marketing headings */
@@ -975,4 +979,8 @@ span.hr {
    .about {
 	   margin-top:5px;
    }
+}
+.disclaimer {
+	padding-top:40px;
+	padding-bottom:40px;
 }
