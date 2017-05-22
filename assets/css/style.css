@@ -23,6 +23,10 @@
 .navbar-toggler:hover {
 	cursor:pointer;
 }
+.navbar-toggler {
+	position:absolute;
+	right:10px;
+}
 #navbarHeader > .container {}
 span.hr {
   height:1px;
