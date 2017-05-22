@@ -26,6 +26,7 @@
 .navbar-toggler {
 	position:absolute;
 	right:10px;
+	color:#888;
 }
 #navbarHeader > .container {}
 span.hr {
