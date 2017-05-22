@@ -965,4 +965,7 @@ span.hr {
    .hero-header h1 {
 	   font-size:21px;
    }
+   #hero{
+     background-image:url("/assets/img/stock_small.jpg");
+   }
 }
