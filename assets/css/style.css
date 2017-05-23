@@ -2,9 +2,16 @@
 
 }
 .brand {
-    font-weight:100;
+    font-weight:400;
 }
 .brand span {
+    font-weight:700;
+}
+
+.lead .brand {
+    font-weight:200;
+}
+.lead .brand span {
     font-weight:400;
 }
 
@@ -155,7 +162,7 @@ span.break10 {
 	  display:none;
    }
    .hero-header h1 {
-	   font-size:21px;
+	   font-size:24px;
    }
    #hero{
      background-image:url("/assets/img/stock_small.jpg");
