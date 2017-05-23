@@ -1,6 +1,5 @@
 *, html, body {
-	word-break: none;
-	word-wrap: normal;
+
 }
 .brand {
     font-weight:100;
@@ -93,6 +92,10 @@ span.break40 {
 	padding:40px;
 	display:block;
 }
+span.break10 {
+	padding:20px;
+	display:block;
+}
 
 /* Thin out the marketing headings */
 .featurette-heading {
@@ -143,6 +146,9 @@ span.break40 {
 .trustees {
 	margin-bottom:30px;
 }
+.card-columns {
+  column-count: 2;
+}
 @media all and (max-width: 480px) {
 	.ssbp-container {
 
@@ -162,10 +168,23 @@ span.break40 {
 	   	color:#888;
 	   }
 }
+@media all and (max-width: 600px) {
+	   .card-columns {
+   	  column-count: 1;
+   	}
+}
 .disclaimer {
 	padding-top:40px;
 	padding-bottom:40px;
 }
 .about {
 	margin-top:8px;
+}
+.anbi .card-columns {
+	column-count:1;
+	margin-top:20px;
+}
+.max-980 {
+	max-width:980px;
+	margin:0 auto;
 }
